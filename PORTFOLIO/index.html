@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhoomika Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin-top: 2 rem;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            padding:0;
+        }
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color:#ffffff;
+    color: #001f3f;
+    line-height: 1.6;
+    font-family:'Poppins',sans-serif;
+}
+
+h1, h2 {
+    font-weight: 600;
+    color: #001f3f;
+}
+
+.right {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(to bottom, #2222bd, #2c7db4);;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(to bottom, #222, #2c7db4);;
+    color: #fff;
+}
+
+.imgcontainer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #001f3f;
+    
+}
+
+.container1 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background: #ffffff;
+}
+
+.contactiner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(to top, #222, #333);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+
+
+/* Header */
+.header {
+    background: #001f3f;
+    color: #ffffff;
+   
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #000000;
+
+}
+
+.header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #000000;
+}
+
+.formin{
+    display :flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Navbar */
+.navbar {
+    background-color:#0073e6;
+    padding: 1rem 0;
+    background: linear-gradient(navy, black, navy);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin: 0;
+    padding: 0;
+}
+
+ a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* About Section */
+.about img {
+    width: 200px;
+    border-radius: 60%;
+    border: 3px solid #0073e6;
+    margin-bottom: 1rem;
+    background: linear-gradient(to bottom, #222, #2c7db4);
+}
+
+.rescontainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1 1 1 1;
+    text-align: center;
+    background: linear-gradient(to bottom, #222, #2c7db4);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about p {
+color: #ffffff;
+}
+/* Skills */
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skill {
+    background: #0073e6;
+    color: #ffffff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: #ffffff;
+}
+
+.portfolio {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.portfolio-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Resume */
+.resume .btn, .contact .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #0073e6;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #001f3f;
+}
+
+/* Footer */
+.footer {
+    background: #001f3f;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+.logo{
+    width: 120px;   
+    height: 100px;
+}
+    </style>
+    
+</head>
+<body>
+   
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="left">
+                <img src="logo.jpeg" alt="logo" class="logo">
+            </div>
+            <div class="right">
+                <ul class="hey">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <div class="container1">
+        <h1>BHOOMIKA MALLIREDDY</h1>
+        <p>Web Developer | Computer Science Student | Passionate about software Engineering</p>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="imgcontainer" style="background-color:  linear-gradient(to bottom, #001f3f, #2c7db4);">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="bHOOMIKAIMG.jpg" alt="Your Image" class="profile-pic">
+                <p>
+                    Hello! I'm Bhoomika Mallireddy, a web developer with a passion for creating user-friendly and visually appealing websites. My expertise lies in clean code and stunning designs. I strive to make the web more beautiful and accessible.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container1">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">UI/UX Design</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 style="color: #fff;">My Internships</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <div><img src="portfolioimg.jpeg" alt="Project 1"></div>
+                    <p>A modern portfolio showcasing my skills and projects.</p>
+                </div>
+                <div class="project">
+                    <h3>E-commerce Platform</h3>
+                    <div><img src="ecom.jpeg" alt="Project 2"></div>
+                    <p>A fully functional e-commerce site with secure payments.</p>
+                </div>
+                <div class="project">
+                    <h3>Blog Website</h3>
+                    <div><img src="blog.jpeg" alt="Project 3"></div>
+                    <p>A responsive blog with user authentication and dynamic content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>My Projects</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="https://raw.githubusercontent.com/Hasbro22/Codedspace-tutorial-images/refs/heads/main/1710614413785.jpg" alt="Project 1">
+        <h3>music Player app</h3>
+        <p>A single page application built with vanilla JavaScript, CSSand HTML.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://raw.githubusercontent.com/Hasbro22/Codedspace-tutorial-images/refs/heads/main/Screenshot_20241002-093607.jpg" alt="Project 2">
+        <h3>Car Sales website</h3>
+        <p>This is an e-commerce website, mobile first design, responsive and easy to navi...................</p>
+      </div>
+      <!-- Add more portfolio items as needed -->
+    </div>
+  </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="rescontainer">
+            <div><h2 style="color: #ffffff;">Resume</h2></div>
+            <div><a href="Bhoomika_Resume.pdf" download class="btn">Download Resume</a></div>
+            <br>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contactiner">
+            <div><h2 style="color: #fff;">Contact Me</h2></div>
+            <div class = "formin"><form id="contact-form">
+                <div><input type="text" placeholder="Your Name" required></div>
+                <div> <input type="email" placeholder="Your Email" required></div>
+                <div> <textarea placeholder="Your Message" required></textarea></div>
+                <div><button type="submit" class="btn">Send Message</button></div>
+            </form>
+        </div>
+        </div>
+    </section>
+  
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Bhoomika Mallireddy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thanks for reaching out! I’ll get back to you soon.');
+});
+
+// Smooth scrolling for navigation
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+    </script>
+</body>
+</html>
